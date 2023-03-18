@@ -1,0 +1,5 @@
+.navbar { size: 5px; background-color: rgba(0, 0, 0, 0.467) !important; padding-top: 0px !important; box-shadow: rgba(0, 0, 0, 0) 1px 1px 1px !important; }
+body { background: linear-gradient(rgb(0, 0, 0) 39%, rgb(0, 0, 0) 40%, rgb(49, 42, 33) 69%, rgb(77, 34, 4) 100%)}
+.carousel-img{ width:80vw; height:auto; object-fit: contain; }
+.carousel-caption { color: #c2c2c2; font-family: serif; }
+.carousel-caption h5 { text-shadow: 5px 5px 5px #000, 0 0 0 #fff; font-size: 4vw; }
