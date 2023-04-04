@@ -1,0 +1,157 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background: linear-gradient(rgb(0, 0, 0) 39%, rgb(0, 0, 0) 40%, rgb(49, 42, 33) 69%, rgb(77, 34, 4) 100%);
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+
+
+.carousel-img {
+  width: 80vw;
+  height: auto;
+  object-fit: contain;
+}
+
+.carousel-caption {
+  color: #c2c2c2;
+  font-family: serif;
+}
+
+.carousel-caption h5 {
+  text-shadow: 5px 5px 5px #000, 0 0 0 #fff;
+  font-size: 4vw;
+}
+
+.carousel {margin-bottom:10rem;height:auto;width:100vw;text-align:center}
+.carousel-caption{bottom:5rem;z-index:10;text-align:center;color:#c2c2c2;font-family:serif}
+.carousel-indicators{height:5vh}
+.carousel-item{width:100vw!important;height:auto;max-height:100vh;object-fit:cover;}
+.carousel {
+  width: 100vw;
+  height: auto;
+  overflow: -moz-hidden-unscrollable;
+}
+
+.carousel-video {
+  height: auto;
+  width: 100vw !important;
+  text-align: center;
+}
+
+.featurette-video {
+  height: auto;
+  width: 20vw;
+  border-radius: 1.4%;
+  min-width: 300px;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.btn-secondary {
+  color: #d39332de;
+  background-color: #1a1a1a;
+}
+
+.product-selection {
+  text-align: center;
+  margin-bottom: 70px;
+  border-radius: 3%;
+}
+
+.process {
+  text-align: center;
+  color: #c59429;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/* Light Mode Styles 
+.light-mode {
+  background: linear-gradient(rgb(255, 255, 255) 39%, rgb(255, 255, 255) 40%, rgba(250, 165, 96, 0.377) 69%, rgba(184, 100, 3, 0.76) 100%);
+  color: #555555;
+}
+
+.light-mode h1, .light-mode h2, .light-mode h3, .light-mode h4, .light-mode h6 {
+  color: #000000;
+  font-weight: 800;
+}
+
+.light-mode .navbar {
+  background-color: rgba(34, 34, 34, 0.8) !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px !important;
+}
+
+.light-mode .btn-outline-success {
+  color: #29a546;
+  border-color: #28a746;
+}
+
+.light-mode .btn-outline-success:hover {
+  background-color: #28a74600;
+  border-color: #28a74600;
+  color: #fff;
+}
+
+.light-mode .carousel-title {
+  color: #ffffff;
+}
+
+.light-mode .carousel-caption {
+  color: #ffffff;
+}
+
+.light-mode .carousel-caption h5 {
+  text-shadow: 2px 2px 2px #ffffff00, 0 0 0 #00000000;
+}
+
+.light-mode .carousel-caption p {
+  text-shadow: 2px 2px 2px #ffffff00, 0 0 0 #00000000;
+}
+/*
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.467) !important;
+  padding-top: 0px !important;
+  box-shadow: rgba(0, 0, 0, 0) 1px 1px 1px !important;
+} */
